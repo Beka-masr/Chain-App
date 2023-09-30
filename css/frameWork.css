@@ -1,0 +1,205 @@
+/* Start Component */
+:root{
+    --mainColor: #4b8ef1;
+    --bgColor: #4b8ef1;
+    --colorPage: #2a2a2a;
+}
+.between-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.justfay-c{
+    justify-content: center;
+}
+/* End Component */
+.align-center{
+    align-items: center;
+}
+.d-flex{
+    display: flex;
+}
+.d-grid{
+    display: grid;
+}
+.gap-10{
+    gap: 10px;
+}
+.gap-20{
+    gap: 20px;
+}
+.gap-40{
+    gap: 40px;
+}
+.gap-50{
+    gap: 50px;
+}
+.p-10{
+    padding: 10px;
+}
+.p-15{
+    padding: 15px;
+}
+.ptb-15{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.plr-20{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.p-20{
+    padding: 20px;
+}
+.flex-w{
+    flex-wrap: wrap;
+}
+.btn-shape{
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.justifay-c{
+    justify-content: center;
+}
+.justifay-start{
+    justify-content: flex-start;
+}
+.d-block{
+    display: block;
+}
+@media (max-width: 767px){
+    .d-block{
+        display: block;
+    }
+}
+.fs-13{
+    font-size: 13px;
+}
+.fs-14{
+    font-size: 14px;
+} 
+.fs-15{
+    font-size: 15px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-23{
+    font-size: 23px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-35{
+    font-size: 35x;
+}
+.fs-40{
+    font-size: 40px;
+}
+.m-0{
+    margin: 0;
+}
+.mt-0{
+    margin-top: 0;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.lh-5{
+    line-height: 1.5;
+}
+.lh-6{
+    line-height: 1.6;
+}
+.c-gray{
+    color: #444;
+}
+.fw-bold{
+    font-weight: bold;
+}
+.bg-white{
+    background-color: white;
+}
+.rad-6{
+    border-radius: 6px;
+}
+.rad-10{
+    border-radius: 10px;
+}
+.rad-50{
+    border-radius: 50px;
+}
+.rad-half{
+    border-radius: 50%;
+}
+.box-shadow{
+    box-shadow: 0 0 10px #0000001f;
+}
+.c-blue{
+    color: var(--mainColor);
+}
+.bg-blue{
+    background-color: var(--mainColor);
+}
+.c-777{
+    color: #999;
+}
+.c-black{
+    color: var(--colorPage);
+}
+.p-relative{
+    position: relative;
+}
+.text-center{
+    text-align: center;
+}
